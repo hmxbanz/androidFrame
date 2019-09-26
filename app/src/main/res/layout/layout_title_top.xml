@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/layout_title_top">
+
+    <LinearLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"   >
+        <!-- 头部导航 -->
+        <RelativeLayout
+            android:id="@+id/layout_back"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:onClick="onHeadLeftClick"
+            >
+                    <ImageView
+                        android:src="@drawable/back_icon"
+                        android:scaleType="centerInside"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:tint="@color/txtColorDark"
+                        android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:text="@string/str_back"
+                android:textColor="@color/txtColorDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/tag_layout_logo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="标题"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout_right"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"        >
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:id="@+id/txt_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/title_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfdfdd" />
+    </LinearLayout>
+

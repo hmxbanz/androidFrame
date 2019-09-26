@@ -1,0 +1,50 @@
+R_DEF: Internal format may change without notice
+local
+anim anim_dismiss
+anim anim_show
+attr? civ_border_color
+attr? civ_border_overlay
+attr? civ_border_width
+attr? civ_fill_color
+attr? contentScrim
+attr? sriv_border_color
+attr? sriv_border_width
+attr? sriv_left_bottom_corner_radius
+attr? sriv_left_top_corner_radius
+attr? sriv_oval
+attr? sriv_right_bottom_corner_radius
+attr? sriv_right_top_corner_radius
+attr? tabIndicatorColor
+attr? tabTextColor
+color aphleWhite
+color appButtonBorderColor
+color appButtonColor
+color appTextColor
+color mainColorBlue
+color mainColorBlueDark
+color mainColorPink
+drawable appbarlayout_elevated
+drawable bg_button_pink
+drawable bg_getuser1
+drawable ic_arrow_white_24dp
+drawable icon_arrow_down
+id app_bar_layout
+id arrow_down
+id btn_add_favor
+id btn_add_friend
+id btn_add_message
+id btn_thumbs_up
+id collapsingtoolbarlayout
+id img_avatar
+id img_top_bg
+id tabLayout
+id text_intro
+id text_nickname
+id toolbar
+layout view_coordinatortablayout
+string app_name
+style TabLayoutStyle
+style TabTextAppearence
+styleable CircleImageView civ_border_width civ_border_color civ_border_overlay civ_fill_color
+styleable CoordinatorTabLayout contentScrim tabIndicatorColor tabTextColor
+styleable SelectableRoundedImageView sriv_left_top_corner_radius sriv_right_top_corner_radius sriv_left_bottom_corner_radius sriv_right_bottom_corner_radius sriv_border_width sriv_border_color sriv_oval android:scaleType

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- 加载图片失败时的提示文本 -->
+    <!-- 加载中提示 -->
+
+    <!-- 下拉刷新和上拉加载更多的文本 -->
+
+    <!-- 图片保存的文字 -->
+
+</resources>

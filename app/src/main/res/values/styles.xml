@@ -1,0 +1,125 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme.
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/appTextColor</item>
+        <item name="android:editTextColor">@color/appTextColor</item>
+    </style>
+
+    <!--透明对话框透明-->
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="txtStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/abc_text_size_small_material</item>
+        <item name="android:textColor">@color/mainColorBlueDark</item>
+    </style>
+
+    <style name="titleStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/abc_text_size_medium_material</item>
+        <item name="android:textColor">@color/txtColorDark</item>
+    </style>
+
+    <style name="AppButtonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="ButtonStyle2">
+        <item name="android:textColor">@color/mainColorBlue</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/bg_button_blue</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="AppTitleStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AppPlaintTextStyle">
+        <item name="android:textColor">@color/appTextColor</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <!--资料编辑输入框-->
+    <style name="EditTextStyle">
+        <item name="android:textColorHint">@color/appTextColor</item>
+        <item name="android:textColor">@color/appTextColor</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@color/aliceblue</item>
+    </style>
+
+    <!--登录输入框-->
+    <style name="LoginTextStyle">
+        <item name="android:textColorHint">@color/appTextColor</item>
+        <item name="android:textColor">@color/appTextColor</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:background">@drawable/transparent_drawable</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">60dp</item>
+    </style>
+
+
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_checkbox</item>
+        <item name="android:maxHeight">25.0dip</item>
+        <item name="android:maxWidth">25.0dip</item>
+    </style>
+
+    <style name="dialogFullscreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="dialogFullscreenTranslucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="dialogHelp">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+<!--    <style name="WinDialog" parent="@android:style/Theme.Dialog">-->
+<!--        <item name="android:windowFrame">@null</item>-->
+<!--        <item name="android:windowIsFloating">true</item>-->
+<!--        <item name="android:windowIsTranslucent">false</item>-->
+<!--        <item name="android:windowNoTitle">false</item>-->
+<!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+<!--        <item name="android:background">@android:color/transparent</item>-->
+<!--    </style>-->
+
+    <style name="mydialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+</resources>

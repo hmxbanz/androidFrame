@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="ucrop_image_crop">图片裁剪</string>
+    <string name="determine">确定</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="nannvyou_app_name">Yazole</string>
+    <string name="search">商务</string>
+    <string name="sport">运动</string>
+    <string name="discovery">发现</string>
+    <string name="me">我的</string>
+
+    <!--自定义Toast-->
+
+    <string name="recyclerview_footer_title">更多请使用搜索</string>
+    <string name="nav_text_new">最新</string>
+    <string name="nav_text_hot">最热</string>
+    <string name="nav_text_share">动态</string>
+    <string name="btn_search_text">搜 索</string>
+    <string name="login_text">登 录</string>
+    <string name="other_text">快捷登录</string>
+    <string name="captcha_text">获取验证码</string>
+    <string name="ModifyPass">修改密码</string>
+
+    <string name="dialog_bottom_picture">拍照</string>
+    <string name="dialog_bottom_import_from_local">从相册选择</string>
+    <string name="share_dialog_cancel">取消</string>
+    <string name="layout_dialog_loading">正在加载...</string>
+
+    <string name="app">APP</string>
+    <string name="network_not_available">网络不可用</string>
+    <string name="network_error">网络有问题</string>
+    <string name="request_fail">请求失败</string>
+    <string name="request_time_out">请求超时</string>
+    <string name="unknow_error">未知错误码</string>
+    <string name="phone_number_be_null">手机号不能为空</string>
+    <string name="password_be_null">密码不能为空</string>
+    <string name="password_cannot_contain_spaces">密码不能包含空格</string>
+    <string name="password_length_over_float">密码长度不能超过11位</string>
+    <string name="captcha_cannot_be_null">验证码不能为空</string>
+    <string name="protocol_not_checked">请同意用户协议</string>
+    <string name="password_not_equal">两次密码输入不相同</string>
+    <string name="download_success">下载完成</string>
+    <string name="download_progress">正在下载:%1$d%%</string>
+    <string name="no_record">暂无</string>
+    <string name="no_read_message">...</string>
+    <string name="register_new">新用户注册</string>
+    <string name="str_back">返回</string>
+    <string name="thirdpart_bind_title">请填写以下信息</string>
+    <string name="txt_submit">确定</string>
+    <string name="txt_cancel">取消</string>
+    <string name="txt_find_pass_title">找回密码</string>
+    <string name="text_submit_modify">确认修改</string>
+    <string name="txt_register_tip">没有帐号?立即注册</string>
+    <string name="txt_login_tip">无法登录?寻求帮助</string>
+    <string name="txt_protocle">《用户协议》</string>
+    <string name="txt_protocle_tip">我已阅读并同意</string>
+    <string name="txt_skip">跳过步骤</string>
+    <string name="dialog_bind_help">\t如您的国家手机号码无法收到验证码，可尝试在倒数后重新发送验证码。\n\t如依旧无法收到验证码，可跳过验证步骤，跳过验证会导致部分功能不可使用。</string>
+    <string name="dialog_reg_help">\t1. 如您的国家手机号码无法收到我们的验证码，可尝试在倒数后重新发送验证码。\n
+
+\t2. 如依旧无法收到验证码，我们推荐您返回上一步进行第三方软件登录，目前支持的第三方登陆有微信、Face book、LinkedIn、Instagram。\n
+
+如以上两种方式都无法进行登录，可使用游客登录，但无法记录储存您的数据。</string>
+    <string name="help">帮助</string>
+    <string name="txt_agree">同意并继续</string>
+    <string name="captcha_change_text">秒后可重发</string>
+    <string name="txt_nickname">登录/注册</string>
+    <string name="txt_sign_in">签到</string>
+    <string name="txt_watch_type">型号:无</string>
+    <string name="txt_watch_state">未连接</string>
+    <string name="font_type">微软雅黑</string>
+    <string name="main_color">#008fff</string>
+    <!--actionbar title -->
+
+</resources>

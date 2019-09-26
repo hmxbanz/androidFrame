@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="ucrop_image_crop">KJNova Clipper</string>
+    <string name="determine">Determine</string>
+
+    <string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>
+
+</resources>

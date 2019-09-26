@@ -1,0 +1,12 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+*.jks
+*.apk
+/app/src/main/AndroidManifest.xml
+/app/src/main/java/cn/nannvyou/app/NnyConst.java
+/app/build.gradle

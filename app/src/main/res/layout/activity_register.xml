@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="20dp"
+android:background="@color/white"
+android:orientation="vertical"
+tools:context=".view.activity.RegisterActivity">
+
+
+    <TextView
+        android:gravity="center"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/register_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/country_icon"
+             />
+
+        <TextView
+            android:textColor="@color/txtColorDark"
+            android:id="@+id/txt_country"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="中国" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/country_jt"
+             />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grayLine" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/phone_icon"
+             />
+
+        <TextView
+            android:textColor="@color/txtColorDark"
+            android:id="@+id/txt_zone"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+86" />
+
+        <View
+            android:layout_marginLeft="5dp"
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:background="@color/grayLine" />
+
+        <cn.noname.app.widget.ClearWriteEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="请输入用户名"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#2C2C2C"
+            android:textColorHint="@color/textGray"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grayLine" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/password_icon"
+             />
+
+        <cn.noname.app.widget.ClearWriteEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="请输入密码"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#2C2C2C"
+            android:textColorHint="@color/textGray"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grayLine" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/code_icon"
+             />
+
+        <cn.noname.app.widget.ClearWriteEditText
+            android:layout_marginRight="20dp"
+            android:id="@+id/captcha"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="请输入验证码"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#2C2C2C"
+            android:textColorHint="@color/textGray"
+            android:textSize="16sp"/>
+
+        <TextView
+            style="@style/txtStyle"
+            android:layout_toRightOf="@+id/captcha"
+            android:id="@+id/btn_captcha"
+            android:textColor="@color/mainColor"
+            android:text="@string/captcha_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grayLine" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="2dp">
+
+        <CheckBox
+            style="@style/MyCheckBox"
+            android:button="@null"
+            android:id="@+id/checkbox"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_toRightOf="@+id/captcha"
+            android:text="@string/txt_protocle_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_protocol"
+            style="@style/txtStyle"
+            android:layout_toRightOf="@+id/captcha"
+            android:textColor="@color/mainColor"
+            android:text="@string/txt_protocle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/btn_register"
+    style="@style/AppButtonStyle"
+    android:text="@string/txt_submit" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+<TextView
+    android:id="@+id/txt_need_help"
+    android:layout_gravity="bottom|center"
+    android:gravity="center|bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/txt_login_tip" />
+
+</LinearLayout>
+
+
+
